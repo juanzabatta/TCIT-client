@@ -1,0 +1,35 @@
+.FormPost {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  
+}
+
+.FormPost form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.FormPost form input[type=text],
+.FormPost form input[type=submit]{
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  border: 2px solid black;
+  text-align: left;
+  cursor: text;
+}
+
+.FormPost form input[type=submit]{  
+  margin-right: 10px;
+  box-shadow: 4px 4px 2px black; 
+  background-color: white; 
+  cursor: pointer;
+}
+
+.FormPost form input[type=submit]:hover{  
+  transform: scale(1.1, 1.1); 
+}

@@ -1,0 +1,49 @@
+.listPost table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  border: 4px solid black;
+}
+
+.listPost table tr{
+  height: 50px;
+}
+
+.listPost table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.listPost table td,
+.listPost table th{
+  border-left: 2px solid black;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.listPost table th{
+  background-color: rgb(158, 158, 158);
+}
+
+
+.listPost table td:nth-child(1) {
+  text-transform: uppercase;
+}
+
+.listPost table .notResults{
+  border-top: 2px solid black;
+  text-align: center;
+}
+
+.listPost table td button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.listPost table td button:hover{
+  color: red;
+  text-decoration: underline;
+}
