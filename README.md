@@ -4,5 +4,5 @@ Este repositorio incluye solo el código del lado del cliente. Fue realizado sig
 
 In the project directory, you can run:
 
-### `npm run start`
-### `npm run build`
+`npm run start`
+`npm run build`
